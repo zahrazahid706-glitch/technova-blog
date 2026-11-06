@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | TechNova</title>
+    <meta name="description" content="Contact TechNova for technology news, AI tools, software guides and general inquiries.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h2 class="logo">TechNova<span>.</span></h2>
+
+        <div class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="index.html#categories">Categories</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    </nav>
+</header>
+
+<main class="contact-page">
+    <section class="contact-heading">
+        <h1>Contact Us</h1>
+        <p>Have a question or suggestion? We'd love to hear from you.</p>
+    </section>
+
+    <section class="contact-container">
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+            
+<div class="contact-detail">
+    <span>📞</span>
+    <div>
+        <h3>Phone</h3>
+        <p>Contact number will be added soon.</p>
+    </div>
+</div>
+
+<div class="contact-detail">
+    <span>✉️</span>
+    <div>
+        <h3>Email</h3>
+        <p>Email address will be added soon.</p>
+    </div>
+</div>
+
+            <p>Connect with TechNova for questions, feedback and suggestions.</p>
+
+            <h3>Our Topics</h3>
+            <p>AI Tools • Technology News • Software Guides</p>
+        </div>
+
+        <form class="contact-form" onsubmit="sendMessage(event)">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <label for="phone">Phone Number</label>
+<input type="tel" id="phone" placeholder="Enter your phone number">
+
+            <label for="message">Your Message</label>
+            <textarea id="message" rows="5" placeholder="Write your message..." required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 TechNova. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+

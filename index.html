@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TechNova | Technology & AI Blog</title>
+
+    <meta name="description" content="Explore the latest AI tools, technology news, software guides and helpful technology tutorials on TechNova.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Tech<span>Nova.</span></a>
+
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="tagline">WELCOME TO TECHNOVA</p>
+
+            <h1>Explore The Future Of <span>Technology</span></h1>
+
+            <p class="hero-text">
+                Discover AI tools, technology news, software guides
+                and tutorials to stay ahead in the digital world.
+            </p>
+
+            <a href="blog.html" class="main-btn">Explore Articles →</a>
+        </div>
+    </section>
+
+    <!-- SEARCH SECTION -->
+    <section class="search-section">
+        <h2>Find What You Need</h2>
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search technology articles..."
+                oninput="searchArticles()"
+            >
+            <button onclick="searchArticles()">Search</button>
+        </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="categories" id="categories">
+        <div class="section-heading">
+            <p>EXPLORE TOPICS</p>
+            <h2>Browse Categories</h2>
+        </div>
+
+        <div class="category-grid">
+            <a href="categories.html" class="category-card">
+                <span>🤖</span>
+                <h3>AI Tools</h3>
+                <p>Discover useful AI tools.</p>
+            </a>
+
+            <a href="categories.html" class="category-card">
+                <span>💻</span>
+                <h3>Technology News</h3>
+                <p>Stay updated with technology.</p>
+            </a>
+
+            <a href="categories.html" class="category-card">
+                <span>⚙️</span>
+                <h3>Software Guides</h3>
+                <p>Learn about useful software.</p>
+            </a>
+
+            <a href="categories.html" class="category-card">
+                <span>📚</span>
+                <h3>How-To Tutorials</h3>
+                <p>Learn technology step by step.</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- BLOG ARTICLES -->
+    <section class="blog-section" id="blog">
+        <div class="section-heading">
+            <p>OUR LATEST CONTENT</p>
+            <h2>Latest Articles</h2>
+        </div>
+
+        <div class="blog-grid" id="blogGrid">
+
+            <article class="blog-card">
+                <div class="article-image ai-image">🤖</div>
+                <div class="article-content">
+                    <span class="category-label">AI Tools</span>
+                    <h3>How AI Tools Are Changing Our Daily Lives</h3>
+                    <p>Explore how artificial intelligence is helping people work, learn and create.</p>
+                    <a href="article-ai.html">Read More →</a>
+                </div>
+            </article>
+
+            <article class="blog-card">
+                <div class="article-image news-image">💻</div>
+                <div class="article-content">
+                    <span class="category-label">Technology News</span>
+                    <h3>The Future of Technology in 2026</h3>
+                    <p>Discover important technology trends shaping our digital future.</p>
+                    <a href="article-tech.html">Read More →</a>
+                </div>
+            </article>
+
+            <article class="blog-card">
+                <div class="article-image software-image">⚙️</div>
+                <div class="article-content">
+                    <span class="category-label">Software Guides</span>
+                    <h3>Essential Software for Beginners</h3>
+                    <p>Learn about useful software that makes everyday computer tasks easier.</p>
+                    <a href="article-software.html">Read More →</a>
+                </div>
+            </article>
+
+        </div>
+
+        <p id="noResults" class="no-results"></p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <h2>TechNova.</h2>
+        <p>Exploring Technology. Empowering Knowledge.</p>
+
+        <div class="footer-links">
+            
+    <a href="index.html">Home</a>
+    <a href="categories.html">Categories</a>
+    <a href="blog.html">Blog</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms & Conditions</a>
+</div>
+
+
+        <p class="copyright">
+            © 2026 TechNova. All Rights Reserved.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

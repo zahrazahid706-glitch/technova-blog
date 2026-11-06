@@ -1,0 +1,49 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://YOUR-DOMAIN.com/</loc>
+    </url>
+
+    <url>
+        <loc>https://YOUR-DOMAIN.com/about.html</loc>
+    </url>
+
+    <url>
+        <loc>https://YOUR-DOMAIN.com/contact.html</loc>
+    </url>
+
+    <url>
+        <loc>https://YOUR-DOMAIN.com/blog.html</loc>
+    </url>
+
+    <url>
+        <loc>https://YOUR-DOMAIN.com/categories.html</loc>
+    </url>
+
+    <url>
+        <loc>https://YOUR-DOMAIN.com/privacy.html</loc>
+    </url>
+
+    <url>
+        <loc>https://YOUR-DOMAIN.com/terms.html</loc>
+    </url>
+
+    <url>
+        <loc>https://YOUR-DOMAIN.com/article-ai.html</loc>
+    </url>
+
+    <url>
+        <loc>https://YOUR-DOMAIN.com/article-tech.html</loc>
+    </url>
+
+    <url>
+        <loc>https://YOUR-DOMAIN.com/article-software.html</loc>
+    </url>
+
+    <url>
+        <loc>https://YOUR-DOMAIN.com/article-tutorial.html</loc>
+    </url>
+
+</urlset>
