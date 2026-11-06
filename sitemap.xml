@@ -1,49 +1,52 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://YOUR-DOMAIN.com/</loc>
+        <loc>https://zahrazahid706-glitch.github.io/technova-blog/</loc>
     </url>
 
     <url>
-        <loc>https://YOUR-DOMAIN.com/about.html</loc>
+        <loc>https://zahrazahid706-glitch.github.io/technova-blog/about.html</loc>
     </url>
 
     <url>
-        <loc>https://YOUR-DOMAIN.com/contact.html</loc>
+        <loc>https://zahrazahid706-glitch.github.io/technova-blog/contact.html</loc>
     </url>
 
     <url>
-        <loc>https://YOUR-DOMAIN.com/blog.html</loc>
+        <loc>https://zahrazahid706-glitch.github.io/technova-blog/blog.html</loc>
     </url>
 
     <url>
-        <loc>https://YOUR-DOMAIN.com/categories.html</loc>
+        <loc>https://zahrazahid706-glitch.github.io/technova-blog/categories.html</loc>
     </url>
 
     <url>
-        <loc>https://YOUR-DOMAIN.com/privacy.html</loc>
+        <loc>https://zahrazahid706-glitch.github.io/technova-blog/privacy.html</loc>
     </url>
 
     <url>
-        <loc>https://YOUR-DOMAIN.com/terms.html</loc>
+        <loc>https://zahrazahid706-glitch.github.io/technova-blog/terms.html</loc>
     </url>
 
     <url>
-        <loc>https://YOUR-DOMAIN.com/article-ai.html</loc>
+        <loc>https://zahrazahid706-glitch.github.io/technova-blog/article-ai.html</loc>
     </url>
 
     <url>
-        <loc>https://YOUR-DOMAIN.com/article-tech.html</loc>
+        <loc>https://zahrazahid706-glitch.github.io/technova-blog/article-tech.html</loc>
     </url>
 
     <url>
-        <loc>https://YOUR-DOMAIN.com/article-software.html</loc>
+        <loc>https://zahrazahid706-glitch.github.io/technova-blog/article-software.html</loc>
     </url>
 
     <url>
-        <loc>https://YOUR-DOMAIN.com/article-tutorial.html</loc>
+        <loc>https://zahrazahid706-glitch.github.io/technova-blog/article-tutorial.html</loc>
+    </url>
+
+    <url>
+        <loc>https://zahrazahid706-glitch.github.io/technova-blog/article-security.html</loc>
     </url>
 
 </urlset>
